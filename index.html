@@ -1,1 +1,177 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ঘরের বাজার খাটি পন্য</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        .info-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+        
+        .contact-title {
+            color: #333;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .phone-number {
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            display: inline-block;
+        }
+        
+        .phone-number a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        
+        .phone-number a:hover {
+            color: #764ba2;
+        }
+        
+        .call-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 20px 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .call-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            color: #999;
+            font-size: 12px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🏪</div>
+            <h1>ঘরের বাজার</h1>
+            <p class="tagline">খাটি পন্য, নির্ভরযোগ্য সেবা</p>
+        </div>
+        
+        <div class="info-section">
+            <div class="contact-title">📞 আমাদের সাথে যোগাযোগ করুন</div>
+            <div class="phone-number">
+                <a href="tel:01859417476">01859417476</a>
+            </div>
+            <a href="tel:01859417476" class="call-button">📱 এখনই কল করুন</a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">✅</div>
+                <div>খাটি পন্য গ্যারান্টি</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <div>দ্রুত ডেলিভারি</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <div>সাশ্রয়ী মূল্য</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⭐</div>
+                <div>গ্রাহক সন্তুষ্টি</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© ২০২৬ ঘরের বাজার খাটি পন্য | সকল অধিকার সংরক্ষিত</p>
+        </div>
+    </div>
+</body>
+</html>
